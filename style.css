@@ -5,21 +5,70 @@ nav {
     
 }
 
+button {
+  font-size: x-large;
+}
 
 h1 {
     color: rgb(3, 3, 3);
     text-align: center;
     font-size: 44px;
     font-family:Arial, Helvetica, sans-serif
-    
-    
 }
+
+.story {
+  font-size: 26px;
+  font-family:cursive;
+  background-color: black;
+  color: rgb(253, 253, 253);
+  
+}
+
+h3 {
+  text-align:center;
+  font-size:large;
+color: rgb(255, 255, 255);
+background-color:rgb(0, 0, 0);
+}
+
+
+h4 {
+  font-size:large;
+color: rgb(252, 252, 252);
+background-color:rgb(0, 0, 0);
+width: 8%;
+}
+
+h6 {
+  font-size: large;
+}
+
 {box-sizing: border-box;}
 
 body { 
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
 
+}
+
+form {
+  font-size: 24px;
+  background-color: rgba(3, 192, 78, 0.598);
+  width:40%;
+  border:5px solid rgb(54, 78, 4);
+  padding: 20px;
+  margin: 25px;
+}
+
+.about {
+  width: 30%;
+  
+}
+
+.overlay {
+  width: 15%;
+  color: white;
+  background-color: black;
 }
 
 .logo {
@@ -78,7 +127,7 @@ body {
     font-size: 20px;
 }
 a:link {
-    color: rgb(9, 244, 244);
+    color: rgb(88, 145, 252);
 }
 a:visited {
     color: rgb(0, 85, 0);
@@ -87,19 +136,20 @@ a:visited {
     color: rgb(247, 11, 11);
   }
   a:active {
-    color: rgb(40, 228, 249);
+    color: rgb(71, 115, 247);
   }
 
   .ideas {
-    color: rgb(16, 16, 16);
-    background-color: rgb(221, 220, 219);
+    text-align: center;
+    background-color:black;
+    color: rgb(248, 248, 248);
   overflow: visible;
 
   }
   
 
 .image-gallery {
-  width: 50%;
+  
 }
 
 
@@ -124,13 +174,16 @@ quote {
 p {
     font-size: 22px;
     margin: 40px 25px 1px 25px;
-    color: rgb(1, 0, 0);
+    color: rgb(5, 5, 5);
     font-family:Arial, Helvetica, sans-serif
+   
+  
 }
 #box {
-    width: 1100px;
-  height: 100px;
-  background-color: rgb(221, 220, 219);
+  
+  color: white;
+  background-color: black;
+  text-align: center;
   overflow: visible;
 }
 #image {
@@ -148,6 +201,13 @@ p {
 ul {
   font-size: 20px;
 }
+.contact {
+  width: 400px;
+  height: 90px;
+  background-color: rgb(221, 220, 219);
+  overflow: auto;
+}
+
 /*  body {
     background-image: url(effervescent.jpg.jpg); 
     font-family:Georgia, 'Times New Roman', Times, serif
@@ -361,6 +421,50 @@ color: blue;
     color: black
    ;
 }
+
+
+
+
+
+
+
+
+
+ .animated-img {
+            border: 2px solid #333;
+            border-radius: 5px;
+            /* add animation 
+            animation: rotate 4s linear infinite;
+        }
+        /* change the background 
+        body {
+            background-color: #f5f5f5;
+        }
+        /* add a caption 
+        .h2 {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        /* animate the caption 
+        @keyframes slide {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(0); }
+        }
+        .h2 {
+            animation: slide 1s ease-in-out;
+        }
+        /* animation for the image 
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+
+
+
+
 
 
 
